@@ -23,9 +23,9 @@ class Car():
             print("You can't roll back an odometer!")
         
         
-
-my_new_car = Car('ford', 'eco- sport', 2018)
-print(my_new_car.get_descriptive_name())
-print(my_new_car.update_odometer(90))
-my_new_car.increment_odometer(1302)
-print(f'This car has {my_new_car.odometer_reading} miles on it.')
+if __name__ == '__main__':
+    my_new_car = Car('ford', 'eco- sport', 2018)
+    print(my_new_car.get_descriptive_name())
+    print(my_new_car.update_odometer(90))
+    my_new_car.increment_odometer(1302)
+    print(f'This car has {my_new_car.odometer_reading} miles on it.')

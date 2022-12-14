@@ -20,9 +20,10 @@ class User():
         print(f'Login attempts: {self.login_attempts}')
 
 
-joe = User('joe', 'silva')
-joe.greet_user()
-joe.increment_login_attempts()
-joe.increment_login_attempts()
-joe.increment_login_attempts()
-joe.reset_loggin_attempts()
+if __name__ == '__main__': 
+    joe = User('joe', 'silva')
+    joe.greet_user()
+    joe.increment_login_attempts()
+    joe.increment_login_attempts()
+    joe.increment_login_attempts()
+    joe.reset_loggin_attempts()

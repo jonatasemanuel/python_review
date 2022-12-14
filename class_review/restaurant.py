@@ -28,9 +28,9 @@ fastdog = Restaurant('Fastdog', 'Street food')
 fastdog.describe_restaurant()
 fastdog.open_restaurant()
 """
-
-sukiya = Restaurant('Sukiya', 'Japan food')
-# sukiya.describe_restaurant()
-# sukiya.open_restaurant()
-sukiya.set_number_served(12)
-sukiya.increment_number_served(20)
+if __name__ == '__main__':
+    sukiya = Restaurant('Sukiya', 'Japan food')
+    # sukiya.describe_restaurant()
+    # sukiya.open_restaurant()
+    sukiya.set_number_served(12)
+    sukiya.increment_number_served(20)
