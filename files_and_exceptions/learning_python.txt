@@ -1,0 +1,3 @@
+In Python we can create functions to perform a certain task
+In Python we can create classes with objects related to real life
+In Python we can open files and work with them
