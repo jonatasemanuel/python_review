@@ -17,7 +17,13 @@ def greet_user():
 
         username = get_stored_username()
         if username:
-            print(f"Wecome back, {username}!")
+            confirm = input(f'You are {username} or not? [ y / n]: ').lower()
+            if confirm in 'y yes':
+                print(f"Welcome back, {username}!")
+            elif confirm in 'no n not':
+                get_new_username()
+            else:
+                print(f'Please, enter Y or N')
         else:
             get_new_username()
             print(f"We'll remember you when you come back, {username}")
